@@ -1,0 +1,175 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <aside class="side-nav" id="show-side-navigation1">
+      <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+      
+      <ul class="categories">
+        <li><i class="fa fa-home fa-fw" aria-hidden="true"></i>Dashboard   
+        </li>
+        <li><i class="fa fa-support fa-fw"></i>Products
+        </li>
+        <li><i class="fa fa-envelope fa-fw"></i>Organization
+        </li>
+        <li><i class="fa fa-users fa-fw"></i>Production
+        </li>
+        <li><i class="fa fa-bolt fa-fw"></i>Analysis
+        </li>  
+        <li><i class="fa fa-bolt fa-fw"></i>Report
+        </li>        
+        <li><i class="fa fa-bolt fa-fw"></i>Alerts
+        </li>        
+        <li><i class="fa fa-bolt fa-fw"></i>Statistics
+        </li>  
+        <li><i class="fa fa-bolt fa-fw"></i>Settings
+        </li>
+       </ul>
+    </aside>
+    <section id="contents">
+      <nav class="navbar navbar-default">
+        <input type="text" placeholder="Type here"><i class="fa fa-search"></i>
+      
+        
+          
+          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+            
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>My profile</b> <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><i class="fa fa-user-o fw"></i> My account</a></li>
+                  <li><a href="#"><i class="fa fa-envelope-o fw"></i> My inbox</a></li>
+                  <li><a href="#"><i class="fa fa-question-circle-o fw"></i> Help</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#"><i class="fa fa-sign-out"></i> Log out</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fa fa-comments"></i><span>23</span></a></li>
+              <li><a href="#"><i class="fa fa-bell-o"></i><span>98</span></a></li>
+              <li><a href="#"><i data-show="show-side-navigation1" class="fa fa-bars show-side-btn"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="welcome">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="content">
+                <h2>Overview</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="statistics">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+  <ul class="hexagon" lang="es">
+  <li class="honeycomb-cell">
+    <a title="Icons8 [MIT (http://opensource.org/licenses/mit-license.php)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Icons8_flat_businessman.svg"><img width="170" alt="Icons8 flat businessman" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Icons8_flat_businessman.svg/170px-Icons8_flat_businessman.svg.png"></a>Employee      
+    <div>
+      </div>
+         </li> 
+         </ul>    
+            </div>
+            <div class="col-md-4">
+             <ul class="hexagon" lang="es">
+  <li class="honey">
+    <img src="https://img.icons8.com/color/170/000000/guest-female.png">Customer
+    <div class="honey-title">
+  </li> 
+</ul>
+            </div>
+            <div class="col-md-4">
+         <ul class="hexagon" lang="es">
+  <li class="money">
+    <img src="https://img.icons8.com/color/170/000000/actresses.png">Orders
+    <div class="money-title">
+  </li> 
+</ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="charts">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="chart-container">
+                <h3>Delivery Order</h3>
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="chart-container">
+                <h3>Revenue Analyses</h3>
+                <canvas id="myChart2"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <div class="container">
+<div class="table-responsive">
+  <table class="table">
+    
+  <h2 class="text-left">Top Orders</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="col-sm-4">Country</th>
+        <th class="col-sm-4">Company</th>
+        <th class="col-sm-4">Delivery Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> china</td>
+        <td>Defaultson</td>
+        <td>2/2/2018</td>
+      </tr>      
+      <tr class="success">
+        <td>Italy</td>
+        <td>Doe</td>
+        <td>4/2/2018</td>
+      </tr>
+      <tr class="danger">
+        <td>India</td>
+        <td>Moe</td>
+        <td>18/2/2018</td>
+      </tr>
+      <tr class="info">
+        <td>Australia</td>
+        <td>Dooley</td>
+        <td>21/2/2018</td>
+      </tr>
+      <tr class="warning">
+        <td>USA</td>
+        <td>Refs</td>
+        <td>22/2/2018</td>
+      </tr>
+      <tr class="active">
+        <td>Sri Lanka</td>
+        <td>Activeson</td>
+        <td>28/2/2018</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+       
+      <script src='http://code.jquery.com/jquery-latest.js'></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+      <script src='js/main.js'></script>
+      </body>
+    </html>
