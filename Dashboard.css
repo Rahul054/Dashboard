@@ -28,6 +28,7 @@ body {background-color: #FF8C00}
 .margin {
   margin-left: 0 !important;
 }
+/* Start side navigation bar  */
 
 .side-nav {
   float: left;
@@ -85,6 +86,8 @@ body {background-color: #FF8C00}
   color: #BBB;
   font-size: 13px;
 }
+/* End heading */
+/* Start search */
 .side-nav .search {
   text-align: center;
   padding: 15px 30px;
@@ -107,6 +110,7 @@ body {background-color: #FF8C00}
   color: #2b2f3a;
   font-size: 19px;
 }
+/* End search */
 
 .side-nav .categories > li {
   padding: 17px 40px 17px 30px;
@@ -118,7 +122,7 @@ body {background-color: #FF8C00}
   color: #AAA;
   text-decoration: none;
 }
-
+/* Start num: there are three options primary, danger and success like Bootstrap */
 .side-nav .categories > li > a > .num {
   line-height: 0;
   border-radius: 3px;
@@ -127,6 +131,7 @@ body {background-color: #FF8C00}
   padding: 0px 5px
 }
 
+/* End num */
 .side-nav .categories > li > a:hover {
   color: #FFF
 }
@@ -150,7 +155,8 @@ body {background-color: #FF8C00}
   -moz-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
-
+/* End categories */
+/* Start dropdown menu */
 .side-nav .categories .side-nav-dropdown {
   padding-top: 10px;
   padding-left: 30px;
@@ -169,12 +175,16 @@ body {background-color: #FF8C00}
   margin-top: 10px;
 }
 
+/* End dropdown menu */
+
 .show-side-nav {
   -webkit-transform: translateX(-290px);
   -moz-transform: translateX(-290px);
   transform: translateX(-290px);
 }
 
+
+/* Start media query */
 @media (max-width: 767px) {
   .side-nav .categories > li {
     padding-top: 12px;
@@ -185,24 +195,28 @@ body {background-color: #FF8C00}
   }
 }
 
+/* End side navigation bar  */
+/* Start welcome */
+
 .welcome {
   color: #CCC;
 }
 .welcome .content {
-  background-color:#FFFFE0 ;
+  background-color:FF8C00 ;
   padding: 15px;
   margin-top: 25px;
 }
 .welcome h2 {
   font-family: Calibri;
   font-weight: 100;
-  margin-top: 0;
-  color: #999;
+  margin-top: 0
 }
 .welcome p {
   color: #999;
 }
 
+
+/* Start statistics */
 .statistics {
   margin-top: 25px;
   color: #CCC;
@@ -232,6 +246,8 @@ body {background-color: #FF8C00}
 }
 .statistics .box .info p {color:#BBB}
 
+/* End statistics */
+/* Start charts */
 .charts {
   margin-top: 25px;
   color: #BBB
@@ -244,6 +260,8 @@ body {background-color: #FF8C00}
   margin: 0 0 10px;
   font-size: 17px;
 }
+
+/* Start users */
 
 .admins {
   margin-top: 25px;
@@ -279,6 +297,8 @@ body {background-color: #FF8C00}
 .admins .box .info h3 {font-size: 19px}
 .admins .box .info p {color: #BBB}
 
+/* End users */
+/* Start statis */
 
 .statis {
   color:#696969 ;
@@ -294,7 +314,7 @@ body {background-color: #FF8C00}
  .hexagon {
   position: relative;
   width: 300px; 
-  height: 170px;
+  height: 173.21px;
   background-color:  #FFFFE0;
   margin: 86.60px 0;
   font-size:25px;
@@ -345,6 +365,7 @@ body {background-color: #FF8C00}
   border-radius: 50%;
 }
 
+/*chart*/
 .chrt3 {
   padding-bottom: 50px;
 }
@@ -357,6 +378,18 @@ body {background-color: #FF8C00}
   padding: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .main-color {
   color: #ffc107
 }
@@ -365,6 +398,9 @@ body {background-color: #FF8C00}
 .success {background-color: #5cb85c}
 .inf {background-color: #5bc0de}
 
+
+
+/* Start bootstrap */
 .navbar-right .dropdown-menu {
   right: auto !important;
   left: 0 !important;
@@ -430,6 +466,11 @@ body {background-color: #FF8C00}
 .navbar-default .navbar-nav>li>a>i {
   font-size: 18px !important;
 }
+
+
+
+
+/* Start media query */
 
 @media (max-width: 767px) {
   #contents {
